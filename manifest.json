@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "AZ Helper",
+  "version": "3.0",
+  "author": "Dogga Pavan Sekhar",
+  "description": "This extension helps users clarify doubts and solve problems.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://maang.in/problems/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://maang.in/problems/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/exten.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/exten.png",
+      "24": "assets/exten.png",
+      "32": "assets/exten.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Click to open Helper chatbot."
+  }
+}

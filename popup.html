@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini API Key Setup</title>
+    <script src="popup.js" defer></script>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            width: 300px; 
+            padding: 20px;
+            background-color: #222B39;
+            color: white;
+            border-radius: 12px;
+            border: 1px solid #557486;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .popup-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .popup-header img {
+            width: 40px;
+            height: 40px;
+        }
+        .popup-header h3 {
+            margin: 0;
+        }
+        input { 
+            width: 90%; 
+            padding: 8px; 
+            margin: 12px 0; 
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        button { 
+            padding: 10px 14px; 
+            cursor: pointer; 
+            border: none;
+            background-color: #2D3C51;
+            color: white;
+            border-radius: 8px;
+            border: 1px solid #557486;
+            font-size: 14px;
+            transition: 0.3s ease-in-out;
+        }
+        button:hover { 
+            background-color: #1F2A3B;
+        }
+        #statusMessage {
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .warning { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <div class="popup-header">
+        <img src="assets/key.png" alt="Extension Icon" class="popup-icon">
+        <h3>Gemini API Key</h3>
+    </div>
+    <input type="text" id="apiKeyInput" placeholder="Enter your API key" readonly>
+    
+    <div class="button-container">
+        <button id="editButton">Edit</button>
+        <button id="saveButton" style="display: none;">Save</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <p id="statusMessage"></p>
+</body>
+</html>
