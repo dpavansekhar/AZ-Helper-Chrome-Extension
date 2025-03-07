@@ -62,3 +62,11 @@ AZ Helper is a Chrome extension designed to enhance the user experience on codin
 ## License
 This extension is open-source and available for modifications. Contributions are welcome!
 
+
+Sample Photos :
+![image](https://github.com/user-attachments/assets/86bbf05e-f274-48a2-a763-9f669cb58f74)
+
+![Screenshot 2025-03-07 224621](https://github.com/user-attachments/assets/6cbe21e5-6266-400a-880d-092cfc330f73)
+
+![image](https://github.com/user-attachments/assets/8f3bf55f-61dd-4d38-8a33-35b9b500832c)
+
