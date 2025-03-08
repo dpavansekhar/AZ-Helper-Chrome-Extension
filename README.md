@@ -70,4 +70,4 @@ Sample Photos :
 
 ![image](https://github.com/user-attachments/assets/8f3bf55f-61dd-4d38-8a33-35b9b500832c)
 
-Sample Video how it helps the user : ![Click Here](https://drive.google.com/file/d/1_YstPfIWNQzv40c0NbB_TpnDjh2R33VG/view?usp=sharing)
+Sample Video how it helps the user : https://drive.google.com/file/d/1_YstPfIWNQzv40c0NbB_TpnDjh2R33VG/view?usp=sharing
